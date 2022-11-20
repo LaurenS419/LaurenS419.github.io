@@ -129,7 +129,9 @@ def help_page():
     
     textD = tk.Label(window, text = "Welcome to the drawing game!",
                     font =("Arial",20), bg = white, fg = grey)
-    textDh = tk.Label(window, text = "Using the arrow keys to move around and draw. Press the button to change the colour.",
+    textDh = tk.Label(window, text = "Using the arrow keys to move around and draw. Press the button to change the colour,",
+                    font =("Arial",15), bg = white, fg = grey)
+    textDs = tk.Label(window, text = "and press the space bar to clear the screen.",
                     font =("Arial",15), bg = white, fg = grey)
     
     textM = tk.Label(window, text = "Welcome to the clicking game!",
@@ -159,9 +161,10 @@ def help_page():
     
     textD.place(x=50, y=260)
     textDh.place(x=50, y=300)
+    textDs.place(x=50, y=320)
     
-    textM.place(x=50, y=340)
-    textMh.place(x=50, y=380)
+    textM.place(x=50, y=360)
+    textMh.place(x=50, y=400)
     
     phone_title.place(x=50, y=460)
     phone1.place(x=50, y=490)
